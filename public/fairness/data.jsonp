@@ -1,0 +1,90 @@
+function generateStudentId() {
+  const studentId = 'S' + String(Math.floor(Math.random() * 900) + 100).padStart(3, '0');
+  return studentId;
+}
+
+function callback(data) {
+  const messagesContainer = document.querySelector('.messages-container');
+  messagesContainer.innerHTML = '';
+
+  data.forEach(item => {
+    const messageWrapper = document.createElement('a');
+    messageWrapper.classList.add('message-wrapper', 'border-bottom', 'p-3');
+    
+    const thumbnail = document.createElement('div');
+    thumbnail.classList.add('thumbnail', 'me-3');
+    thumbnail.textContent = item.thumbnail;
+    
+    const name = document.createElement('div');
+    name.classList.add('name', 'h5', 'm-0');
+    //name.textContent = "Student ID:" + item.student_id;
+    name.textContent = generateStudentId();
+    
+    const time = document.createElement('div');
+    time.classList.add('ago-time');
+    time.textContent = item.timestamp;
+    
+    const messageText = document.createElement('div');
+    messageText.classList.add('message-text');
+    messageText.textContent = item.conversation_summary;
+    
+    const deleteBtn = document.createElement('div');
+    deleteBtn.classList.add('delete-btn');
+    const deleteIcon = document.createElement('span');
+    deleteIcon.classList.add('material-icons-round');
+    deleteIcon.textContent = 'delete';
+    deleteBtn.appendChild(deleteIcon);
+    
+    messageWrapper.appendChild(thumbnail);
+    messageWrapper.appendChild(name);
+    messageWrapper.appendChild(time);
+    messageWrapper.appendChild(messageText);
+    messageWrapper.appendChild(deleteBtn);
+    
+    messagesContainer.appendChild(messageWrapper);
+  });
+}
+
+callback([
+    {
+      "conversation_id": "9911",
+      "student_id": "S011",
+      "conversation_summary": "Student shared feeling that grades were inconsistent compared to peers for similar work.",
+      "timestamp": "2 sec ago",
+      "status": "Pending Review",
+    "thumbnail": "G"
+    },
+    {
+      "conversation_id": "9912",
+      "student_id": "S012",
+      "conversation_summary": "Student mentioned experiencing unequal treatment during sports activities.",
+      "timestamp": "5 min ago",
+      "status": "Pending Review",
+    "thumbnail": "U"
+    },
+    {
+      "conversation_id": "9913",
+      "student_id": "S013",
+      "conversation_summary": "Student reported that they were not given the same opportunities to participate in extracurricular activities as others.",
+      "timestamp": "Yesterday",
+      "status": "Pending Review",
+    "thumbnail": "A"
+    },
+    {
+      "conversation_id": "9914",
+      "student_id": "S014",
+      "conversation_summary": "Student felt that feedback on their assignments was harsher compared to other classmates.",
+      "timestamp": "2 days ago",
+      "status": "Pending Review",
+    "thumbnail": "L"
+    },
+    {
+      "conversation_id": "9915",
+      "student_id": "S015",
+      "conversation_summary": "Student expressed concern about a peer group excluding them from activities and discussions.",
+      "timestamp": "Friday 11/8/24 12:45 PM",
+      "status": "Pending Review",
+    "thumbnail": "P"
+    }
+  ]
+  );

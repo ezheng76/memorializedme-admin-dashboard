@@ -1,0 +1,352 @@
+[
+    {
+        "conversation_id": "9951",
+        "student_id": "S051",
+        "conversation_content": [
+            {
+                "student": "I feel like the responses here are just kind of...generic. It's like talking to a wall."
+            },
+            {
+                "chatbot": "I'm sorry if my responses seem generic. How can I support you better?"
+            }
+        ],
+        "conversation_summary": "Student mentioned that the chatbot responses felt generic and didn't make them feel heard or understood.",
+        "timestamp": "2024-11-08T09:50:00Z"
+    },
+    {
+        "conversation_id": "9952",
+        "student_id": "S052",
+        "conversation_content": [
+            {
+                "student": "I guess I was hoping for more back-and-forth, but your replies are so short."
+            },
+            {
+                "chatbot": "I'm here to listen. Can you tell me more about what's on your mind?"
+            }
+        ],
+        "conversation_summary": "Student expressed that the chatbot's replies were too brief, making it hard to feel a meaningful connection.",
+        "timestamp": "2024-11-08T10:15:00Z"
+    },
+    {
+        "conversation_id": "9953",
+        "student_id": "S053",
+        "conversation_content": [
+            {
+                "student": "I shared a personal story, but I don’t feel like you really understood how I feel."
+            },
+            {
+                "chatbot": "I'm here to listen and understand. I apologize if I didn't respond fully. Could you share more?"
+            }
+        ],
+        "conversation_summary": "Student felt that the chatbot did not respond empathetically when they shared a personal story.",
+        "timestamp": "2024-11-08T11:30:00Z"
+    },
+    {
+        "conversation_id": "9954",
+        "student_id": "S054",
+        "conversation_content": [
+            {
+                "student": "It felt like you ended the conversation too quickly, and I needed to talk more."
+            },
+            {
+                "chatbot": "I'm here for you. Let's continue talking—how can I support you better right now?"
+            }
+        ],
+        "conversation_summary": "Student noted that the chatbot ended the conversation too early without providing a sense of companionship.",
+        "timestamp": "2024-11-08T12:05:00Z"
+    },
+    {
+        "conversation_id": "9955",
+        "student_id": "S055",
+        "conversation_content": [
+            {
+                "student": "I was hoping for more questions from you, but it felt like a one-sided conversation."
+            },
+            {
+                "chatbot": "I understand. I'll do my best to ask questions that show I’m here to listen and understand."
+            }
+        ],
+        "conversation_summary": "Student reported that the chatbot's responses lacked follow-up questions, making the interaction feel one-sided.",
+        "timestamp": "2024-11-08T13:40:00Z"
+    },
+    {
+        "conversation_id": "9901",
+        "student_id": "S001",
+        "conversation_content": [
+            {
+                "student": "I’m feeling really overwhelmed with school and all the assignments."
+            },
+            {
+                "chatbot": "That sounds tough. Would it help to talk about some strategies to manage the workload?"
+            }
+        ],
+        "conversation_summary": "Student expressed feeling overwhelmed with school workload and hinted at potential burnout.",
+        "timestamp": "2024-11-08T10:15:00Z"
+    },
+    {
+        "conversation_id": "9902",
+        "student_id": "S002",
+        "conversation_content": [
+            {
+                "student": "I feel like I'm isolated, like no one really notices me."
+            },
+            {
+                "chatbot": "I'm here for you. It must be hard feeling that way. Do you want to talk about what’s been going on?"
+            }
+        ],
+        "conversation_summary": "Student mentioned feeling isolated and shared that they have not been participating in group activities.",
+        "timestamp": "2024-11-08T11:30:00Z"
+    },
+    {
+        "conversation_id": "9903",
+        "student_id": "S003",
+        "conversation_content": [
+            {
+                "student": "I’m really anxious about exams coming up and haven’t been sleeping well."
+            },
+            {
+                "chatbot": "Exams can be very stressful. Would you like some tips on managing anxiety?"
+            }
+        ],
+        "conversation_summary": "Student reported experiencing anxiety about upcoming exams and difficulty sleeping.",
+        "timestamp": "2024-11-08T12:45:00Z"
+    },
+    {
+        "conversation_id": "9904",
+        "student_id": "S004",
+        "conversation_content": [
+            {
+                "student": "I had a fight with a friend, and I just feel really upset."
+            },
+            {
+                "chatbot": "I'm sorry you're going through that. Do you want to talk about what happened?"
+            }
+        ],
+        "conversation_summary": "Student spoke about a recent argument with a friend that led to emotional distress.",
+        "timestamp": "2024-11-08T14:00:00Z"
+    },
+    {
+        "conversation_id": "9905",
+        "student_id": "S005",
+        "conversation_content": [
+            {
+                "student": "There’s a lot going on at home, and it’s hard to focus on school."
+            },
+            {
+                "chatbot": "That sounds challenging. Balancing home and school can be difficult. Would it help to talk about it?"
+            }
+        ],
+        "conversation_summary": "Student revealed that they are facing family issues at home that are affecting their concentration.",
+        "timestamp": "2024-11-08T15:30:00Z"
+    },
+    {
+        "conversation_id": "9931",
+        "student_id": "S031",
+        "conversation_content": [
+            {
+                "student": "I’ve been feeling really lonely lately. I just can’t seem to make friends."
+            },
+            {
+                "chatbot": "I'm sorry to hear that. Making friends can be challenging. Would you like to talk about what’s been going on?"
+            }
+        ],
+        "conversation_summary": "Student expressed feeling lonely and shared that they have been struggling to make friends.",
+        "timestamp": "2024-11-08T09:15:00Z"
+    },
+    {
+        "conversation_id": "9932",
+        "student_id": "S032",
+        "conversation_content": [
+            {
+                "student": "I miss my family so much. Being away from home is harder than I thought."
+            },
+            {
+                "chatbot": "Homesickness can be tough. Would it help to talk about what you miss most or how you're feeling right now?"
+            }
+        ],
+        "conversation_summary": "Student talked about experiencing homesickness and missing their family.",
+        "timestamp": "2024-11-08T10:40:00Z"
+    },
+    {
+        "conversation_id": "9933",
+        "student_id": "S033",
+        "conversation_content": [
+            {
+                "student": "I have a big presentation coming up, and I’m so nervous. I need a bit of encouragement."
+            },
+            {
+                "chatbot": "Presentations can be stressful, but you’ve got this! Want to talk about ways to feel more confident?"
+            }
+        ],
+        "conversation_summary": "Student mentioned feeling anxious about an upcoming presentation and needing encouragement.",
+        "timestamp": "2024-11-08T11:25:00Z"
+    },
+    {
+        "conversation_id": "9934",
+        "student_id": "S034",
+        "conversation_content": [
+            {
+                "student": "I often feel misunderstood by my classmates during group discussions."
+            },
+            {
+                "chatbot": "That sounds frustrating. Would you like to talk more about what’s been happening in those discussions?"
+            }
+        ],
+        "conversation_summary": "Student shared that they felt misunderstood by their peers during group discussions.",
+        "timestamp": "2024-11-08T12:05:00Z"
+    },
+    {
+        "conversation_id": "9935",
+        "student_id": "S035",
+        "conversation_content": [
+            {
+                "student": "I’m worried about my friend. They’ve been really withdrawn and seem sad."
+            },
+            {
+                "chatbot": "It’s kind of you to care about your friend. Do you want to talk about ways you might be able to support them?"
+            }
+        ],
+        "conversation_summary": "Student expressed concern for a friend who has been acting withdrawn and sad.",
+        "timestamp": "2024-11-08T13:30:00Z"
+    },
+    {
+        "conversation_id": "9921",
+        "student_id": "S021",
+        "conversation_content": [
+            {
+                "student": "I saw someone cheating during the exam, and I don’t know what to do about it."
+            },
+            {
+                "chatbot": "That sounds like a difficult situation. Would you like to discuss ways to handle it?"
+            }
+        ],
+        "conversation_summary": "Student reported witnessing a peer cheating during an exam.",
+        "timestamp": "2024-11-08T08:45:00Z"
+    },
+    {
+        "conversation_id": "9922",
+        "student_id": "S022",
+        "conversation_content": [
+            {
+                "student": "I think someone in my group project copied from another source, and it doesn’t feel right."
+            },
+            {
+                "chatbot": "It can be challenging to handle situations like that. Do you want to talk about options?"
+            }
+        ],
+        "conversation_summary": "Student raised concerns about plagiarism in group project submissions.",
+        "timestamp": "2024-11-08T10:00:00Z"
+    },
+    {
+        "conversation_id": "9923",
+        "student_id": "S023",
+        "conversation_content": [
+            {
+                "student": "My classmates keep asking me to share my homework answers, and it’s uncomfortable."
+            },
+            {
+                "chatbot": "I understand. It can be hard to say no to peers. Would you like to explore ways to handle this?"
+            }
+        ],
+        "conversation_summary": "Student shared that classmates were pressuring them to share answers for homework assignments.",
+        "timestamp": "2024-11-08T11:20:00Z"
+    },
+    {
+        "conversation_id": "9924",
+        "student_id": "S024",
+        "conversation_content": [
+            {
+                "student": "I overheard some students using inappropriate language in class, and it made me uncomfortable."
+            },
+            {
+                "chatbot": "That sounds upsetting. Do you want to talk about how this is affecting you or what you might do next?"
+            }
+        ],
+        "conversation_summary": "Student mentioned hearing inappropriate language being used by peers in class discussions.",
+        "timestamp": "2024-11-08T12:50:00Z"
+    },
+    {
+        "conversation_id": "9925",
+        "student_id": "S025",
+        "conversation_content": [
+            {
+                "student": "I’ve noticed some bullying behavior among my classmates, and it’s affecting everyone."
+            },
+            {
+                "chatbot": "That’s concerning. Bullying can impact the whole class. Would you like to discuss ways to address this?"
+            }
+        ],
+        "conversation_summary": "Student expressed concerns about bullying behavior and its impact on classmates.",
+        "timestamp": "2024-11-08T14:15:00Z"
+    },
+    {
+        "conversation_id": "9911",
+        "student_id": "S011",
+        "conversation_content": [
+            {
+                "student": "I feel like my grades don’t match up with the effort I put in compared to others."
+            },
+            {
+                "chatbot": "That sounds frustrating. Would you like to talk about why you feel this way and possible next steps?"
+            }
+        ],
+        "conversation_summary": "Student shared feeling that grades were inconsistent compared to peers for similar work.",
+        "timestamp": "2024-11-08T09:00:00Z"
+    },
+    {
+        "conversation_id": "9912",
+        "student_id": "S012",
+        "conversation_content": [
+            {
+                "student": "I feel like I’m treated differently during sports activities, and it doesn’t seem fair."
+            },
+            {
+                "chatbot": "I’m sorry you feel this way. Do you want to discuss what’s been happening and how you might address it?"
+            }
+        ],
+        "conversation_summary": "Student mentioned experiencing unequal treatment during sports activities.",
+        "timestamp": "2024-11-08T10:20:00Z"
+    },
+    {
+        "conversation_id": "9913",
+        "student_id": "S013",
+        "conversation_content": [
+            {
+                "student": "I don’t get the same chances to join extracurricular activities as some others do."
+            },
+            {
+                "chatbot": "That must be frustrating. Would you like to talk about how this is affecting you and explore possible options?"
+            }
+        ],
+        "conversation_summary": "Student reported that they were not given the same opportunities to participate in extracurricular activities as others.",
+        "timestamp": "2024-11-08T11:10:00Z"
+    },
+    {
+        "conversation_id": "9914",
+        "student_id": "S014",
+        "conversation_content": [
+            {
+                "student": "I feel like my teachers give harsher feedback on my work than they do for others."
+            },
+            {
+                "chatbot": "It sounds like you’re feeling singled out. Would you like to discuss this further and explore ways to approach it?"
+            }
+        ],
+        "conversation_summary": "Student felt that feedback on their assignments was harsher compared to other classmates.",
+        "timestamp": "2024-11-08T12:30:00Z"
+    },
+    {
+        "conversation_id": "9915",
+        "student_id": "S015",
+        "conversation_content": [
+            {
+                "student": "Some of my peers are leaving me out of activities and discussions, and it feels isolating."
+            },
+            {
+                "chatbot": "That sounds really tough. Feeling excluded is difficult. Would you like to talk more about it?"
+            }
+        ],
+        "conversation_summary": "Student expressed concern about a peer group excluding them from activities and discussions.",
+        "timestamp": "2024-11-08T13:45:00Z"
+    }
+]

@@ -1,0 +1,90 @@
+function generateStudentId() {
+  const studentId = 'ID - ' + String(Math.floor(Math.random() * 900) + 100).padStart(3, '0');
+  return studentId;
+}
+
+function callback(data) {
+  const messagesContainer = document.querySelector('.messages-container');
+  messagesContainer.innerHTML = '';
+
+  data.forEach(item => {
+    const messageWrapper = document.createElement('a');
+    messageWrapper.classList.add('message-wrapper', 'border-bottom', 'p-3');
+    
+    const thumbnail = document.createElement('div');
+    thumbnail.classList.add('thumbnail', 'me-3');
+    thumbnail.textContent = item.thumbnail;
+    
+    const name = document.createElement('div');
+    name.classList.add('name', 'h5', 'm-0');
+    //name.textContent = "Student ID:" + item.student_id;
+    name.textContent = generateStudentId();
+    
+    const time = document.createElement('div');
+    time.classList.add('ago-time');
+    time.textContent = item.timestamp;
+    
+    const messageText = document.createElement('div');
+    messageText.classList.add('message-text');
+    messageText.textContent = item.conversation_summary;
+    
+    const deleteBtn = document.createElement('div');
+    deleteBtn.classList.add('delete-btn');
+    const deleteIcon = document.createElement('span');
+    deleteIcon.classList.add('material-icons-round');
+    deleteIcon.textContent = 'delete';
+    deleteBtn.appendChild(deleteIcon);
+    
+    messageWrapper.appendChild(thumbnail);
+    messageWrapper.appendChild(name);
+    messageWrapper.appendChild(time);
+    messageWrapper.appendChild(messageText);
+    messageWrapper.appendChild(deleteBtn);
+    
+    messagesContainer.appendChild(messageWrapper);
+  });
+}
+
+callback([
+    {
+      "conversation_id": "9921",
+      "student_id": "S021",
+      "conversation_summary": "Student reported witnessing a peer cheating during an exam.",
+      "timestamp": "2 sec ago",
+      "status": "Pending Review",
+    "thumbnail": "Q"
+    },
+    {
+      "conversation_id": "9922",
+      "student_id": "S022",
+      "conversation_summary": "Student raised concerns about plagiarism in group project submissions.",
+      "timestamp": "5 min ago",
+      "status": "Pending Review",
+    "thumbnail": "Z"
+    },
+    {
+      "conversation_id": "9923",
+      "student_id": "S023",
+      "conversation_summary": "Student shared that classmates were pressuring them to share answers for homework assignments.",
+      "timestamp": "Yesterday",
+      "status": "Pending Review",
+    "thumbnail": "L"
+    },
+    {
+      "conversation_id": "9924",
+      "student_id": "S024",
+      "conversation_summary": "Student mentioned hearing inappropriate language being used by peers in class discussions.",
+      "timestamp": "2 days ago",
+      "status": "Pending Review",
+    "thumbnail": "X"
+    },
+    {
+      "conversation_id": "9925",
+      "student_id": "S025",
+      "conversation_summary": "Student expressed concerns about bullying behavior and its impact on classmates.",
+      "timestamp": "Friday 11/8/24 12:45 PM",
+      "status": "Pending Review",
+    "thumbnail": "H"
+    }
+  ]
+  );

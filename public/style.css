@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 100vh;
+
+}
+
+.border-style{
+    border: 2.5px groove black;
+    border-radius: 20px;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    padding: 10px;
+}
+
+.admin-dashboard{
+    font-size: 40px;
+}
+
+.school-name{
+    font-size: 15px;
+}
+
+
+.tabs{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.home {
+    background-color:burlywood;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+
+    margin: 5px;
+
+    height: 100vh;
+    max-width: 100%;
+
+    justify-content: space-between;
+}
+
+.criteria-list{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.criteria{
+    background-color:burlywood;
+    padding: 10px;
+
+    font-size: 20px;
+}
+
+.overall-performance-image{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.criteria-content{
+    
+    padding: 10px;
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    flex-grow: 1;
+
+    font-size: 30px;
+    
+}
+
+button{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.footer .company-name{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.iphone {
+    border: 16px solid #aaa;
+    width: 375px; /* iPhone width */
+    height: 667px; /* iPhone height */
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .container {
+    padding: 20px;
+    flex: 1;
+    overflow: hidden;
+} */
+
+.inbox {
+    max-height: calc(100% - 160px); /* Adjust as needed */
+    overflow: auto;
+    flex-direction: column;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.message-content {
+    flex: 1;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.timestamp {
+    color: #888;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease;
+}
+
+.iphone {
+    position: relative;
+}
+
+.iphone-button {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.iphone-button i {
+    font-size: 24px;
+}
